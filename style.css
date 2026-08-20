@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f5f3ef;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #6b1e23;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    border-bottom: 4px solid #c9a227;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+}
+
+header p {
+    margin: 8px 0 0;
+    color: #f4df9b;
+}
+
+/* Navigation */
+nav {
+    background: white;
+    padding: 16px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+nav a {
+    color: #6b1e23;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #c9a227;
+}
+
+/* Main */
+main {
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+/* Sections */
+section {
+    background: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border-top: 3px solid #c9a227;
+    box-shadow: 0 2px 8px #ddd;
+}
+
+/* Headings */
+h2 {
+    color: #6b1e23;
+    margin-top: 0;
+}
+
+h3 {
+    color: #6b1e23;
+}
+
+/* Image */
+.campus-image {
+    width: 320px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+}
+
+/* Links */
+section a {
+    color: #6b1e23;
+    font-weight: bold;
+}
+
+/* Lists */
+li {
+    margin: 8px;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #6b1e23;
+    color: white;
+}
+
+th,
+td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background: #faf7ef;
+}
+
+/* Form */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input,
+select,
+textarea {
+    padding: 10px;
+    margin: 5px 0 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    padding: 11px;
+    background: #6b1e23;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #8a292f;
+}
+
+/* Footer */
+footer {
+    background: #6b1e23;
+    color: white;
+    text-align: center;
+    padding: 18px;
+}
